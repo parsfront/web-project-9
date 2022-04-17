@@ -1,0 +1,114 @@
+@import "./reset.css";
+
+@font-face {
+    font-family: "vazir";
+    src: url("../fonts/vazir.eot") format("eot"), url("../fonts/vazir.ttf") format("truetype"), url("../fonts/vazir.woff") format("woff"), url("../fonts/vazir.woff2") format("woff2");
+}
+
+body {
+    font-family: "vazir";
+    direction: rtl;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1450px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/*Header*/
+header {
+    width: 100%;
+}
+
+header nav {
+    width: 100%;
+    height: 70px;
+}
+
+header nav .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+}
+
+header nav .navbar-right {
+    display: flex;
+}
+
+header nav .navbar-right ul {
+    display: flex;
+}
+
+header nav .navbar-right ul li {
+    margin: 0 10px;
+}
+
+header nav .navbar-right ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav .navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+header nav .navbar-left ul {
+    display: flex;
+}
+
+header nav .navbar-left ul li {
+    margin: 0 10px;
+}
+
+header nav .navbar-left ul li a svg {
+    font-size: 20px;
+    color: #000;
+}
+
+header #slide {
+    background-image: url("../images/slide.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    display: flex;
+}
+
+header #slide .slider {
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+header #slide .slider span {
+    position: absolute;
+    left: 37%;
+    top: 30%;
+    font-size: 140px;
+    color: #e2e2e2;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+header #slide .slider .slide-description {
+    position: absolute;
+    left: 0%;
+    top: 35%;
+}
+
+header #slide .slider .slide-description h1 {
+    font-size: 120px;
+    margin-right: 300px;
+    margin-top: 30px;
+    color: #505050;
+}
+
+header #slide .slider .slide-description h2 {
+    font-size: 90px;
+    color: #222222;
+}
