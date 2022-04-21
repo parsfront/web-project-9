@@ -12,9 +12,9 @@ body {
 }
 
 .container {
-    width: 1450px;
+    width: 1700px;
     margin: auto;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 /*Header*/
@@ -25,6 +25,7 @@ header {
 header nav {
     width: 100%;
     height: 70px;
+    display: flex;
 }
 
 header nav .navbar {
@@ -60,6 +61,7 @@ header nav .navbar-left {
 
 header nav .navbar-left ul {
     display: flex;
+    margin-left: 50px;
 }
 
 header nav .navbar-left ul li {
@@ -111,4 +113,84 @@ header #slide .slider .slide-description h1 {
 header #slide .slider .slide-description h2 {
     font-size: 90px;
     color: #222222;
+}
+
+/*Hanging Lamp*/
+#hanging-lamp {
+    width: 100%;
+    background-color: #c56211;
+    position: relative;
+    display: flex;
+}
+
+#hanging-lamp .test {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    left: 90%;
+}
+
+#hanging-lamp .hanging-lamp {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hanging-lamp .hanging-lamp .hanging-right {
+    display: flex;
+    background-color: white;
+    width: 65%;
+}
+
+#hanging-lamp .hanging-lamp .hanging-right .description-right {
+    position: relative;
+}
+
+#hanging-lamp .hanging-lamp .hanging-right .description-right h1 {
+    font-size: 40px;
+    margin-top: 50px;
+    color: #c56211;
+}
+
+#hanging-lamp .hanging-lamp .hanging-right .description-right p {
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+#hanging-lamp .hanging-lamp .hanging-right .description-right a {
+    text-decoration: none;
+    background-color: #ce230d;
+    padding: 10px 15px;
+    color: #fff;
+    position: absolute;
+    left: 20px;
+}
+
+#hanging-lamp .hanging-lamp .hanging-right img {
+    width: 500px;
+    height: 300px;
+}
+
+#hanging-lamp .hanging-lamp .hanging-left {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    text-align: center;
+}
+
+#hanging-lamp .hanging-lamp .hanging-left .desctiption-left {
+    width: 100%;
+}
+
+#hanging-lamp .hanging-lamp .hanging-left h1 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+#hanging-lamp .hanging-lamp .hanging-left h2 {
+    font-size: 40px;
+    margin-top: 20px;
 }
