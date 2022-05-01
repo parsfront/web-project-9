@@ -177,8 +177,8 @@ header #slide .slider .slide-description h2 {
 #hanging-lamp .hanging-lamp .hanging-left {
     display: flex;
     align-items: center;
-    width: 35%;
     text-align: center;
+    width: 35%;
 }
 
 #hanging-lamp .hanging-lamp .hanging-left .desctiption-left {
@@ -193,4 +193,58 @@ header #slide .slider .slide-description h2 {
 #hanging-lamp .hanging-lamp .hanging-left h2 {
     font-size: 40px;
     margin-top: 20px;
+}
+
+/* hanging-lamp-two */
+
+#hanging-lamp-two {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: flex;
+}
+
+#hanging-lamp-two .hanging-two-cover {
+    background-image: url("../images/hang.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 36.6%;
+}
+
+#hanging-lamp-two .hanging-lamp-two {
+    display: flex;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hang-two-right {
+    width: 65%;
+    height: 600px;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hang-two-left {
+    width: 35%;
+    height: 600px;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hang-two-left ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hang-two-left ul li {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hang-two-left ul li img {
+    width: 200px;
+    height: 260px;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hang-two-left ul li h3 {
+    margin: 10px;
 }
