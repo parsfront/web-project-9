@@ -172,6 +172,7 @@ header #slide .slider .slide-description h2 {
 #hanging-lamp .hanging-lamp .hanging-right img {
     width: 500px;
     height: 300px;
+    pointer-events: none;
 }
 
 #hanging-lamp .hanging-lamp .hanging-left {
@@ -242,6 +243,7 @@ header #slide .slider .slide-description h2 {
 #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li img {
     width: 200px;
     height: 260px;
+    pointer-events: none;
 }
 
 #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li h3 {
@@ -308,6 +310,7 @@ header #slide .slider .slide-description h2 {
 #sofa .sofa .sofa-left img {
     width: 350px;
     height: 250px;
+    pointer-events: none;
 }
 
 #sofa .sofa .sofa-right {
@@ -330,4 +333,59 @@ header #slide .slider .slide-description h2 {
 #sofa .sofa .sofa-right h2 {
     font-size: 40px;
     margin-top: 20px;
+}
+
+/*sofa-two */
+
+#sofa-two {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: flex;
+}
+
+#sofa-two .sofa-back-two {
+    background-image: url("../images/5.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 36.6%;
+    bottom: 0;
+    left: 0;
+}
+
+#sofa-two .sofa-two {
+    display: flex;
+}
+
+#sofa-two .sofa-two .sofa-two-right {
+    width: 65%;
+    height: 600px;
+}
+
+#sofa-two .sofa-two .sofa-two-left {
+    width: 35%;
+    height: 600px;
+}
+
+#sofa-two .sofa-two .sofa-two-left ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#sofa-two .sofa-two .sofa-two-left ul li {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#sofa-two .sofa-two .sofa-two-left ul li img {
+    width: 250px;
+    height: 260px;
+    pointer-events: none;
+}
+
+#sofa-two .sofa-two .sofa-two-left ul li h3 {
+    margin: 10px;
 }
