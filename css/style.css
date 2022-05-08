@@ -365,7 +365,7 @@ header #slide .slider .slide-description h2 {
 
 #sofa-two .sofa-two .sofa-two-left {
     width: 35%;
-    height: 600px;
+    height: 650px;
 }
 
 #sofa-two .sofa-two .sofa-two-left ul {
@@ -388,4 +388,35 @@ header #slide .slider .slide-description h2 {
 
 #sofa-two .sofa-two .sofa-two-left ul li h3 {
     margin: 10px;
+}
+
+/*Counters*/
+#counters {
+    width: 100%;
+    background-color: #9ac0fc;
+    padding: 120px 0;
+    display: flex;
+}
+
+#counters .counters {
+    width: 100%;
+    display: flex;
+}
+
+#counters .counters .counters-item {
+    width: 25%;
+    text-align: center;
+}
+
+#counters .counters .counters-item svg {
+    font-size: 40px;
+}
+
+#counters .counters .counters-item .counter {
+    margin: 50px 0;
+    font-size: 20px;
+}
+
+#counters .counters .counters-item h5 {
+    font-size: 20px;
 }
