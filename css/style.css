@@ -183,6 +183,7 @@ header #slide .slider .slide-description h2 {
 }
 
 #hanging-lamp .hanging-lamp .hanging-left .desctiption-left {
+    color: #fff;
     width: 100%;
 }
 
@@ -288,18 +289,17 @@ header #slide .slider .slide-description h2 {
     font-size: 40px;
     margin-top: 50px;
     margin-bottom: 30px;
+    color: #294152;
 }
 
 #sofa .sofa .sofa-left .description-right p {
-    margin-top: 50px;
     font-size: 20px;
-    margin-bottom: 10px;
     line-height: 30px;
 }
 
 #sofa .sofa .sofa-left .description-right a {
     text-decoration: none;
-    background-color: #ce230d;
+    background-color: #264aec;
     padding: 10px 15px;
     color: #fff;
     position: absolute;
@@ -419,4 +419,50 @@ header #slide .slider .slide-description h2 {
 
 #counters .counters .counters-item h5 {
     font-size: 20px;
+}
+
+/*Footer*/
+#footer {
+    background-color: #202020;
+    padding: 80px 0;
+    display: flex;
+}
+
+#footer .footer {
+    text-align: center;
+    width: 100%;
+}
+
+#footer .footer h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#footer .footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+#footer .footer ul li {
+    margin: 0 10px;
+}
+
+#footer .footer ul li a {
+    color: #fff;
+}
+
+#footer .footer ul li a svg {
+    font-size: 19px;
+}
+
+#footer .footer .footer-desc {
+    border-top: 1px solid #131313;
+    padding-top: 40px;
+    width: 450px;
+    margin: 40px auto;
+}
+
+#footer .footer .footer-desc p {
+    line-height: 25px;
+    color: #fff;
 }
