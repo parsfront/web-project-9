@@ -17,6 +17,22 @@ body {
     padding: 0 15px;
 }
 
+/* responseve */
+
+.hamburger-icon {
+    width: 50%;
+    display: none;
+}
+
+.hamburger-icon img {
+    width: 50px;
+}
+
+#responsive-navigation {
+    display: none;
+}
+
+/* responsive */
 /*Header*/
 header {
     width: 100%;
